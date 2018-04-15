@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Kim eller Donald?</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hack/0.8.1/hack.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hack/0.8.1/standard.css">
+    <style>
+      .cell {
+        padding: 0 10px;
+      }
+    </style>
+  </head>
+  <body class="hack"></body>
+    <div class="container">
+      <div class="grid">
+        <div class="cell -6of12">
+          <h1>Trump eller Kardashian?</h1>
+          <p>Lim inn en tweet fra
+            <a target="_blank" href="https://twitter.com/realdonaldtrump">Donald</a> eller
+            <a target="_blank" href="https://twitter.com/kimkardashian">Kim</a>, og en AI kjørende i nettleseren din vil gjette hvem som er avsender.</p>
+          <fieldset class="form-group form-textarea">
+            <label for="input">TWEET:</label>
+            <textarea id="input" rows="5" class="form-control"></textarea>
+          </fieldset>
+          <button class="btn btn-primary" id="execute">Gjett</button>
+        </div>
+        <div class="cell -6of12">
+          <h1>Resultat</h1>
+          <p id="response"></p>
+        </div>
+      </div>
+      </div>
+  </body>
+</html>
